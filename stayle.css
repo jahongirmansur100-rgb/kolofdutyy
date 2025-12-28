@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:"Quantico", sans-serif ;
+}
+
+.continer{
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+}
+header .continer{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: #272C3D;
+    padding: 20px 0;
+}
+li a:hover{
+    color: #FF9C28;
+}
+input{
+    background-color: #404864;
+    color: azure;
+    border: none;
+    margin:  0 30px;
+}
+select{
+    background-color: #00000080;
+    color: azure;
+    border-radius: 5px;
+    width: 163px;
+}
+.big-img{
+height: 554px;
+background-image: url(./img/Bg.png);
+background-size: cover;
+}
+
+img{
+    align-items: center;
+}
+h2{
+    text-align: center;
+    color: azure;
+    padding: 45px;
+}
+.a {
+    background-color: black;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+p{
+    color: white;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+h3{
+    color: white;
+}
+.rasm{
+    display: flex;
+   
+    gap: 17px;
+}
+.rasm-zor{
+    display: flex;
+    
+    gap: 17px;
+    padding: 142px 0;
+}
+.rasm-zor img{
+    margin:  30px 0;
+}
+.img{
+    background-color: #1B1E27;
+}
+footer{
+    background-color: #272C3D;
+    padding: 20px;
+;
+}
+
